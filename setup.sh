@@ -1,2 +1,3 @@
 #!/bin/bash
-echo asd
+
+cd / && ls && cd data && echo boldogsag=true > sudo.txt
