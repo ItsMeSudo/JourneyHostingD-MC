@@ -11,4 +11,5 @@ RUN apt update -y && \
     cd JourneyHostingD-MC && chmod +x * && \
     ./setup.sh
 
-CMD cd / && ls && cd data && echo boldogsag=true > sudo.txt
+CMD cd /root/JourneyHostingD-MC && \
+    ./startup.sh

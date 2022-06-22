@@ -1,3 +1,4 @@
 #!/bin/bash
 
-cd / && ls && cd data && echo boldogsag=true > sudo.txt
+cd /root && \
+    apt install unzip wget openjdk-16-jre -y
