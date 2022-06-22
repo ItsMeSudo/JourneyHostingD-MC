@@ -11,5 +11,4 @@ RUN apt update -y && \
     cd JourneyHostingD-MC && chmod +x * && \
     ./setup.sh
 
-CMD cd /data && \
-    java -Xms1G -Xmx1G -jar server.jar nogui
+CMD cd / && ls && cd data && echo boldogsag=true > sudo.txt
