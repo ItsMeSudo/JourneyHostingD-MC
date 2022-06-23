@@ -1,4 +1,5 @@
 #JourneyHosting Dockerfile Minecraft szerver
+#SUDO                 2022              SERVERHU.EU
 
 FROM ubuntu:20.04
 VOLUME ["/data"]
